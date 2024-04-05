@@ -1,0 +1,213 @@
+/*
+Theme Name: Chique Music
+Description: Used to style Gutenberg Blocks.
+*/
+
+pre.wp-block-code,
+figure.wp-block-pullquote.is-style-solid-color,
+figure.wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
+    background-color: #2d2d2d;
+}
+
+.wp-block-quote cite {
+	color: #666;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link,
+.wp-block-button__link.is-style-outline {
+    color: #f2b104;
+}
+
+.wp-block-file .wp-block-file__button,
+.wp-block-button .wp-block-button__link {
+	background-color: #f2b104;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large),
+.wp-block-quote {
+	border-left: 3px solid #f2b104;
+}
+
+.wp-block-pullquote,
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	border-color: #f2b104;
+}
+
+.wp-block-table thead th {
+	color:  #fff;
+}
+
+.wp-block-table,
+.wp-block-table th,
+.wp-block-table td,
+.wp-block-latest-comments__comment {
+	border-color: #1d1d1d;
+}
+
+pre.wp-block-code {
+	background-color: #2d2d2d;
+	border: 1px solid #1d1d1d;
+	color: #999;
+}
+
+figure.wp-block-pullquote.is-style-solid-color {
+	background-color: #2d2d2d;
+	color: #fff;
+}
+
+blockquote.wp-block-quote,
+.wp-block-pullquote blockquote {
+	color: #fff;
+}
+
+.wp-block-quote cite {
+    color: #999;
+}
+
+/* Color White */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-white-color cite,
+.wp-block-button .wp-block-button__link.has-white-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-white-color,
+.wp-block-button__link.is-style-outline.has-white-color,
+.has-white-color {
+	color: #fff;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-white-background-color,
+.wp-block-button .wp-block-button__link.has-white-background-color,
+.has-white-background-color {
+	background-color: #fff;
+}
+
+.is-style-outline > .wp-block-button__link.has-white-color,
+.wp-block-button__link.is-style-outline.has-white-color {
+	border-color: #fff;
+}
+
+/* Color Black */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-black-color cite,
+.wp-block-button .wp-block-button__link.has-black-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-black-color,
+.wp-block-button__link.is-style-outline.has-black-color,
+.has-black-color {
+	color: #000;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-black-background-color,
+.wp-block-button .wp-block-button__link.has-black-background-color,
+.has-black-background-color {
+	background-color: #000;
+}
+
+.is-style-outline > .wp-block-button__link.has-black-color,
+.wp-block-button__link.is-style-outline.has-black-color {
+	border-color: #000;
+}
+
+/* Color Medium Black */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-medium-black-color cite,
+.wp-block-button .wp-block-button__link.has-medium-black-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-medium-black-color,
+.wp-block-button__link.is-style-outline.has-medium-black-color,
+.has-medium-black-color {
+	color: #222;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-medium-black-background-color,
+.wp-block-button .wp-block-button__link.has-medium-black-background-color,
+.has-medium-black-background-color {
+	background-color: #222;
+}
+
+.is-style-outline > .wp-block-button__link.has-medium-black-color,
+.wp-block-button__link.is-style-outline.has-medium-black-color {
+	border-color: #222;
+}
+
+/* Color Gray */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-gray-color cite,
+.wp-block-button .wp-block-button__link.has-gray-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-gray-color,
+.wp-block-button__link.is-style-outline.has-gray-color,
+.has-gray-color {
+	color: #999;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-gray-background-color,
+.wp-block-button .wp-block-button__link.has-gray-background-color,
+.has-gray-background-color {
+	background-color: #999;
+}
+
+.is-style-outline > .wp-block-button__link.has-safety-orange-color,
+.wp-block-button__link.is-style-outline.has-safety-orange-color {
+	border-color: #999;
+}
+
+/* Color Light Gray */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-light-gray-color cite,
+.wp-block-button .wp-block-button__link.has-light-gray-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-light-gray-color,
+.wp-block-button__link.is-style-outline.has-light-gray-color,
+.has-light-gray-color {
+	color: #f9f9f9;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-light-gray-background-color,
+.wp-block-button .wp-block-button__link.has-light-gray-background-color,
+.has-light-gray-background-color {
+	background-color: #f9f9f9;
+}
+
+.is-style-outline > .wp-block-button__link.has-light-gray-color,
+.wp-block-button__link.is-style-outline.has-light-gray-color {
+	border-color: #6bbcba;
+}
+
+/* Color Deep Blush */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-deep-blush-color cite,
+.wp-block-button .wp-block-button__link.has-deep-blush-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-deep-blush-color,
+.wp-block-button__link.is-style-outline.has-deep-blush-color,
+.has-deep-blush-color {
+	color: #e186a2;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-deep-blush-background-color,
+.wp-block-button .wp-block-button__link.has-deep-blush-background-color,
+.has-deep-blush-background-color {
+	background-color: #e186a2;
+}
+
+.is-style-outline > .wp-block-button__link.has-deep-blush-color,
+.wp-block-button__link.is-style-outline.has-deep-blush-color {
+	border-color: #e186a2;
+}
+
+/* Color Tradewind */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-tradewind-color cite,
+.wp-block-button .wp-block-button__link.has-tradewind-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-tradewind-color,
+.wp-block-button__link.is-style-outline.has-tradewind-color,
+.has-tradewind-color {
+	color: #6bbcba;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-tradewind-background-color,
+.wp-block-button .wp-block-button__link.has-tradewind-background-color,
+.has-tradewind-background-color {
+	background-color: #6bbcba;
+}
+
+.is-style-outline > .wp-block-button__link.has-tradewind-color,
+.wp-block-button__link.is-style-outline.has-tradewind-color {
+	border-color: #6bbcba;
+}
+
